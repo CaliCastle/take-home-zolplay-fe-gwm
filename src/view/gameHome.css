@@ -1,0 +1,23 @@
+.list-box {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1rem
+    /*justify-content: space-around;*/
+}
+
+.game-box {
+    width: 200px;
+    overflow: hidden;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.game-box>img {
+    width: 100%
+}
+
+.game-title {
+    text-align: left;
+    line-height: 1rem;
+}
